@@ -1,6 +1,7 @@
 {
-  "XW29": 
-    "nomRequete": "BAI Metro",
+"XW29": 
+{
+  "nomRequete": "BAI Metro",
   "noRequete": "XW29",
   "codeUtilisateur": "XW29",
   "groupeDevise": [
@@ -62,5 +63,5 @@
       ]
     }
   ]
-
+ }
 }
