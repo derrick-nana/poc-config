@@ -1,4 +1,4 @@
-XW29={
+{
   "nomRequete": "BAI Metro",
   "noRequete": "XW29",
   "codeUtilisateur": "XW29",
@@ -62,7 +62,7 @@ XW29={
     }
   ]
 },
-xv12_matin={
+{
   "nomRequete": "BAI du Matin",
   "noRequete": "XV12_matin",
   "codeUtilisateur": "XW29",
@@ -100,7 +100,7 @@ xv12_matin={
     }
   ]
 },
-xy12_matin={
+{
   "nomRequete": "BAI du Matin",
   "noRequete": "xy12_matin",
   "filtrePeriode": {
