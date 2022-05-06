@@ -2,10 +2,23 @@ spring:
   config:
     activate:
       on-profile: xv12_matin
+nomRequete: BAI du Matin
 noRequete: XV12_matin
 codeUtilisateur: DN29
-nomRequete: BAI du Matin
-groupeDevise: '{devise=CAD, listeEntentes=[{entente={_ObjectType=EntenteParticulier,
-  numeroInstitution=001, numeroTransit=58000, numeroEntente=4700244, comptes=[{_ObjectType=CompteEOP}]}},
-  {entente={_ObjectType=EntenteParticulier, numeroInstitution=001, numeroTransit=54700,
-  numeroEntente=5400546, comptes=[{_ObjectType=CompteEOP}]}}]}'
+groupeDevise:
+- devise: CAD
+  listeEntentes:
+  - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '20547'
+      numeroEntente: '2201452'
+      comptes:
+      - _ObjectType: CompteEOP
+  - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '85421'
+      numeroEntente: '0024578'
+      comptes:
+      - _ObjectType: CompteEOP
