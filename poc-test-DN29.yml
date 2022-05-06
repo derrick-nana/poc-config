@@ -1,0 +1,39 @@
+#---  
+spring:
+  config:
+    activate:
+      on-profile: DN29
+nomRequete: BAI Metro
+noRequete: DN29
+codeUtilisateur: DN29
+groupeDevise:
+- devise: CAD
+  listeEntentes:
+  - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '20114'
+      numeroEntente: '0354785'
+      comptes:
+      - _ObjectType: CompteEOP
+  - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '20114'
+      numeroEntente: '0658745'
+      comptes:
+      - _ObjectType: CompteEOP
+  - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '50221'
+      numeroEntente: '8555214'
+      comptes:
+      - _ObjectType: CompteEOP
+  - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '32000'
+      numeroEntente: '0124554'
+      comptes:
+      - _ObjectType: CompteEOP
