@@ -1,0 +1,38 @@
+{
+  "nomRequete": "BAI du Matin",
+  "noRequete": "XV12_matin",
+  "codeUtilisateur": "DN29",
+  "groupeDevise": [
+    {
+      "devise": "CAD",
+      "listeEntentes": [
+        {
+          "entente": {
+            "_ObjectType": "EntenteParticulier",
+            "numeroInstitution": "001",
+            "numeroTransit": "22145",
+            "numeroEntente": "0145878",
+            "comptes": [
+              {
+                "_ObjectType": "CompteEOP"
+              }
+            ]
+          }
+        },
+        {
+          "entente": {
+            "_ObjectType": "EntenteParticulier",
+            "numeroInstitution": "001",
+            "numeroTransit": "54785",
+            "numeroEntente": "3254785",
+            "comptes": [
+              {
+                "_ObjectType": "CompteEOP"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
