@@ -1,4 +1,7 @@
-spring.config.activate.on-profile: DN29
+spring:
+  config:
+    activate:
+      on-profile: xy12_matin
 nomRequete: BAI du Matin
 noRequete: xy12_matin
 filtrePeriode:
