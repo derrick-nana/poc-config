@@ -1,0 +1,64 @@
+{
+  "nomRequete": "BAI Metro",
+  "noRequete": "DN29",
+  "codeUtilisateur": "DN29",
+  "groupeDevise": [
+    {
+      "devise": "CAD",
+      "listeEntentes": [
+        {
+          "entente": {
+            "_ObjectType": "EntenteParticulier",
+            "numeroInstitution": "001",
+            "numeroTransit": "28547",
+            "numeroEntente": "0124578",
+            "comptes": [
+              {
+                "_ObjectType": "CompteEOP"
+              }
+            ]
+          }
+        },
+        {
+          "entente": {
+            "_ObjectType": "EntenteParticulier",
+            "numeroInstitution": "001",
+            "numeroTransit": "20114",
+            "numeroEntente": "0452154",
+            "comptes": [
+              {
+                "_ObjectType": "CompteEOP"
+              }
+            ]
+          }
+        },
+        {
+          "entente": {
+            "_ObjectType": "EntenteParticulier",
+            "numeroInstitution": "001",
+            "numeroTransit": "02245",
+            "numeroEntente": "0045888",
+            "comptes": [
+              {
+                "_ObjectType": "CompteEOP"
+              }
+            ]
+          }
+        },
+        {
+          "entente": {
+            "_ObjectType": "EntenteParticulier",
+            "numeroInstitution": "001",
+            "numeroTransit": "45521",
+            "numeroEntente": "0014587",
+            "comptes": [
+              {
+                "_ObjectType": "CompteEOP"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
