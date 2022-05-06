@@ -1,7 +1,3 @@
-spring:
-  config:
-    activate:
-      on-profile: xv12_matin
 nomRequete: BAI du Matin
 noRequete: XV12_matin
 codeUtilisateur: DN29
