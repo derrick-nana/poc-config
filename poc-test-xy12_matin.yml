@@ -1,7 +1,7 @@
 spring:
   config:
     activate:
-      on-profile: xy12_matin
+      on-profile: xy12_matin2
 nomRequete: BAI du Matin
 noRequete: xy12_matin
 filtrePeriode:
