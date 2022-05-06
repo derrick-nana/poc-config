@@ -33,18 +33,3 @@ listeEntentes:
   numeroEntente: '0013787'
   comptes:
   - _ObjectType: CompteEOP
-#---  
-spring:
-  config:
-    activate:
-      on-profile: DN29
-noRequete: DN29
-codeUtilisateur: DN29
-nomRequete: BAI Techno
-groupeDevise: '{devise=CAD, listeEntentes=[{entente={_ObjectType=EntenteParticulier,
-  numeroInstitution=001, numeroTransit=80005, numeroEntente=0245120, comptes=[{_ObjectType=CompteEOP}]}},
-  {entente={_ObjectType=EntenteParticulier, numeroInstitution=001, numeroTransit=80005,
-  numeroEntente=0845214, comptes=[{_ObjectType=CompteEOP}]}}, {entente={_ObjectType=EntenteParticulier,
-  numeroInstitution=001, numeroTransit=25008, numeroEntente=6845210, comptes=[{_ObjectType=CompteEOP}]}},
-  {entente={_ObjectType=EntenteParticulier, numeroInstitution=001, numeroTransit=25008,
-  numeroEntente=2475412, comptes=[{_ObjectType=CompteEOP}]}}]}'
