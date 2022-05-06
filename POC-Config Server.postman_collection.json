@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "fb2cb718-d32f-4466-80cd-7bf7efcc74ca",
+		"name": "POC-Config Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "properties",
+			"item": [
+				{
+					"name": "poc-config-server-DN29.properties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}/poc-config-server/DN29",
+							"host": [
+								"{{path}}"
+							],
+							"path": [
+								"poc-config-server",
+								"DN29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "poc-config-server-xv12_matin.properties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}/poc-config-server/xv12_matin",
+							"host": [
+								"{{path}}"
+							],
+							"path": [
+								"poc-config-server",
+								"xv12_matin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "poc-config-server-xy12_matin.properties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}/poc-config-server/xy12_matin",
+							"host": [
+								"{{path}}"
+							],
+							"path": [
+								"poc-config-server",
+								"xy12_matin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "yml",
+			"item": [
+				{
+					"name": "poc-test-DN29.yml",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}/poc-test/DN29",
+							"host": [
+								"{{path}}"
+							],
+							"path": [
+								"poc-test",
+								"DN29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "poc-test-xv12_matin.yml",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}/poc-test/xv12_matin",
+							"host": [
+								"{{path}}"
+							],
+							"path": [
+								"poc-test",
+								"xv12_matin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "poc-test-xy12_matin.yml",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}/poc-test/xy12_matin",
+							"host": [
+								"{{path}}"
+							],
+							"path": [
+								"poc-test",
+								"xy12_matin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "path",
+			"value": "http://localhost:8888"
+		}
+	]
+}
