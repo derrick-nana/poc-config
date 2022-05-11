@@ -1,17 +1,18 @@
-nomRequete: BAI du Matin
-noRequete: XV12_matin
-codeUtilisateur: DN29
-groupeDevise:
-- devise: CAD
-  listeEntentes:
-  - entente:
+matin:
+  nomRequete: BAI du Matin
+  noRequete: XV12_matin
+  codeUtilisateur: DN29
+  groupeDevise:
+  - devise: CAD
+    listeEntentes:
+    - entente:
       _ObjectType: EntenteParticulier
       numeroInstitution: '001'
       numeroTransit: '20547'
       numeroEntente: '2201452'
       comptes:
       - _ObjectType: CompteEOP
-  - entente:
+    - entente:
       _ObjectType: EntenteParticulier
       numeroInstitution: '001'
       numeroTransit: '85421'
