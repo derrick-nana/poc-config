@@ -19,3 +19,25 @@ matin:
       numeroEntente: '0024578'
       comptes:
       - _ObjectType: CompteEOP
+      
+soir:
+  nomRequete: BAI du Soir
+  noRequete: XV12_soir
+  codeUtilisateur: DN45
+  groupeDevise:
+  - devise: USA
+    listeEntentes:
+    - entente:
+      _ObjectType: EntenteNouveauParticulier
+      numeroInstitution: '002'
+      numeroTransit: '20547'
+      numeroEntente: '2201452'
+      comptes:
+      - _ObjectType: CompteEOPTEST
+    - entente:
+      _ObjectType: EntenteParticulier
+      numeroInstitution: '001'
+      numeroTransit: '85421'
+      numeroEntente: '0024578'
+      comptes:
+      - _ObjectType: CompteEOPTest
