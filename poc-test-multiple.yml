@@ -1,4 +1,5 @@
-multiple: [
+multiple: 
+  values: [
   {
     "nomRequete": "BAI du Matin",
     "noRequete": "BAI1",
