@@ -1,7 +1,7 @@
 multiple: 
   values: [
   {
-    "nomRequete": "BAI du Matin",
+    "nomRequete": "BAI du Matin Lundi",
     "noRequete": "BAI1",
     "codeUtilisateur": "XW29",
     "groupeDevise": [
