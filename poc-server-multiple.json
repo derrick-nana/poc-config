@@ -1,0 +1,54 @@
+[
+  {
+    "nomRequete": "BAI du Matin",
+    "noRequete": "BAI1",
+    "codeUtilisateur": "XW29",
+    "groupeDevise": [
+      {
+        "devise": "CAD",
+        "listeEntentes": [
+          {
+            "entente": {
+              "_ObjectType": "EntenteParticulier",
+              "numeroInstitution": "815",
+              "numeroTransit": "30126",
+              "numeroEntente": "0397182",
+              "contientChiffreVerificateur": "O",
+              "comptes": [
+                {
+                  "_ObjectType": "CompteEOP"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nomRequete": "BAI du Matin",
+    "noRequete": "BAI1",
+    "codeUtilisateur": "XW30",
+    "groupeDevise": [
+      {
+        "devise": "CAD",
+        "listeEntentes": [
+          {
+            "entente": {
+              "_ObjectType": "EntenteParticulier",
+              "numeroInstitution": "815",
+              "numeroTransit": "30126",
+              "numeroEntente": "0397182",
+              "contientChiffreVerificateur": "O",
+              "comptes": [
+                {
+                  "_ObjectType": "CompteEOP"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
